@@ -1,13 +1,13 @@
 variable "subnet" {
-  default = "subnet"
+  default = "subnet-0fe2b645"
 }
 
 variable "sg" {
-  default = "sg-8fdd8afc"
+  default = "sg-0da844f909360e54e"
 }
 
 variable "ami" {
-  default = "ami-51537029"
+  default = "ami-04169656fea786776"
 }
 
 variable "size" {
