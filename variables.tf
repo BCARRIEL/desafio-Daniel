@@ -3,11 +3,11 @@ variable "subnet" {
 }
 
 variable "sg" {
-  default = "sg"
+  default = "sg-8fdd8afc"
 }
 
 variable "ami" {
-  default = "ami"
+  default = "ami-51537029"
 }
 
 variable "size" {
@@ -19,9 +19,8 @@ variable "region" {
 }
 
 variable "type" {
-  default = "t2.medium"
+  default = "t2.micro"
 }
-
 
 variable "tag" {
   default = "desafio"
