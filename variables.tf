@@ -11,7 +11,7 @@ variable "ami" {
 }
 
 variable "size" {
-  default = "size"
+  default = "50"
 }
 
 variable "region" {
